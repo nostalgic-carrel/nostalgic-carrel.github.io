@@ -26,6 +26,50 @@ This website is written in Japanese.
 <a href="about.html">どこかの誰かさん</a>の個人ページです。<br>
 高校の「社会と情報」の授業で作ったウェブページをベースに、細々と続けています。<br>
 ”ゆっくりしていってね！”</p>
+<div id="target-date-content" style="display: none;">
+<a href="0831.html">今日は、8月31日。</a>
+</div>
+
+<script>
+    // 今日のおおよその日付を取得
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = today.getMonth() + 1; // 月は0から始まるため+1
+    const day = today.getDate();
+
+    // 表示したい「年・月・日」を指定
+    const targetYear = 2026;
+    const targetMonth = 8;
+    const targetDay = 31;
+
+    // 条件判定：年、月、日がすべて一致した場合
+    if (year === targetYear && month === targetMonth && day === targetDay) {
+        // 要素を表示する
+        document.getElementById('target-date-content').style.display = 'block';
+    }
+</script>
+<div id="target-date-content" style="display: none;">
+<marquee><font color="red">Merry Christmas, Mr. Lawrence.</a></marquee>
+</div>
+
+<script>
+    // 今日のおおよその日付を取得
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = today.getMonth() + 1; // 月は0から始まるため+1
+    const day = today.getDate();
+
+    // 表示したい「年・月・日」を指定
+    const targetYear = 2026;
+    const targetMonth = 12;
+    const targetDay = 25;
+
+    // 条件判定：年、月、日がすべて一致した場合
+    if (year === targetYear && month === targetMonth && day === targetDay) {
+        // 要素を表示する
+        document.getElementById('target-date-content').style.display = 'block';
+    }
+</script>
 <p>【主な更新情報】<br>
 ※小規模な更新は基本的に載せていません。悪しからず。<br>
 ・2026.8.22　<font color="red"><b>NEW</b></font>　<a href="about.html">ABOUT</a>の「中の人」を改稿しました。<br>
