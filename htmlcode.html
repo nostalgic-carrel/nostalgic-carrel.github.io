@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<link rel="icon" href="ICON.PNG" />
+<title>コピぺして「つかえる」HTMLテンプレコード集</title>
+</head>
+<body bgcolor="#FFEEDD">
+This website is written in Japanese.
+<h1>追憶のキャレル / コピぺして「つかえる」HTMLテンプレコード集</h1>
+<a href="index.html"><button name="button">HOME</button></a> <a href="about.html"><button name="button">ABOUT</button></a> <a href="diary.html"><button name="button">DIARY</button></a> <a href="topic.html"><button name="button">TOPIC</button></a> <a href="bbs.html"><button name="button">BBS</button></a>
+<hr>
+<a href="index.html">トップ</a> ＞ <a href="topic.html">TOPIC</a> ＞コピぺして「つかえる」HTMLテンプレコード集
+<hr>
+<h2>はじめに</h2>
+　Ameba OwndやJimdoしかり、無料でデザインもかなりしっかりしたウェブサイトを作成することが容易になった今日。それでも、中にはHTMLで簡単なウェブサイト（テキストサイト）を作成する必要があることもまだまだあります。仕事の都合でサイトを更新する必要が出て、蓋を開けてみたら昔懐かしいHTMLで、予算もそんなにつけられない、等々、悩みは切実です。<br>
+　このページの目的（存在意義）はなるたけ「専門的な知識を有さなくても、ソースコード（タグなど）をコピーして、必要なところを切り貼りするだけでそれっぽいサイトを作ったり、コードの意味を理解したりすることができる」ようにする、ということです。<br>
+　では早速。<br>
+
+<h2>文章を入力する方法</h2>
+　ちょっとした小見出し（タイトル）をつけて文字を変更すると、このような形で表示されます。タイトルは「」のような形で打ち込むと作成することができます。また、文章の中で文字を大きくしたいと思ったときは、<font size="5">このような形で文字の大きさを変更することができます。</font>コードは「」のように入力してください。数字を大きくすれば大きくするほど、文字を大きくすることができます。<br>
+また、任意の箇所で改行をしたい場合は、タグとして「<br>」を付してください。次の行から改行されて表示されます。<br>
+
+
+<h2>文字に加工を加える方法</h2>
+　文字の大きさを変更する方法は先に示した通りですが、このほかにも、文字を<font color="blue">青くしたり</font>、<font color="red">赤くしたり</font>、<b>太字にしたり</b>、それぞれいろいろなやり方があります。ソースコードを見てみてください。<br>
+　また、下のように文字を流してみたり、行ったり来たりするように加工する方法もあります。タグ（文章以外のところ）をよく確認した上で、文字を打ち換えればそのまま使うことができます。頑張って応用してみてください。<br>
+  （但しHTML-5以降、このMarqueeタグは非推奨になっているようですのでご注意を！）<br>
+　<marquee>右から左へ文字が抜けていくように表示されています。挟んでいる文字を変えれば、どこかしらに流用できます。</marquee><br>
+
+<h2>リンクをつける方法</h2>
+　今日の世の中にはたくさんのウェブサイトが存在しています。例えば、わが国の首相官邸のページはこのようになっています。リンクを踏んでいただければ、新しいウィンドウが開いてページを表示することができます。<br>
+<a href="https://www.kantei.go.jp" target="_blank">→日本国の首相官邸はコチラ</a><br>
+文字を変えると、任意の文字でリンクを作ることができます。例えば、同じく首相官邸のページが開くこんなリンクを作ることができます。<br>
+<a href="https://www.kantei.go.jp" target="_blank">→Prime Minister's Office(Japan)</a><br>
+文字を変える方法を使うと、URLをそのままにみられるような工夫もできますね。<br>
+<a href="https://www.kantei.go.jp" target="_blank">→https://www.kantei.go.jp</a><br>
+
+<h2>今のウィンドウに開かせる方法</h2>
+　先に示した方法はリンクを踏むと新しいウィンドウが開くものですが、今開いているウィンドウにページを読み込む方法、というのもあります。<br>
+<a href="https://www.kantei.go.jp">→日本国の首相官邸はコチラ</a><br>
+リンクを踏んでもらったときの挙動をさせたいのであれば、このような方法をとることもできます。項目ごとにページを分けた場合、一般にこのようなリンクの開かせ方をするのが無難だと言われています。というのも、そのたびに新しいタブが開いてしまうとブラウザが重くなったり、どのタブを開いているのかわかりづらくなってしまうからです。<br>
+　例えば、このサイトの著作権に関するページへ移動しますが、このような挙動にしておけば、スムーズといえるでしょう。<br>
+<a href="cpdemo.html">→このサイトの著作権を表示する。</a><br>
+
+<h2>リンクをボタンの形で示す方法</h2>
+　ボタンを押すと何らかのリンクが開くように設定してあります。やり方は二つ。一つは新しいウィンドウで何かが開くようにする方法で、もう一つはそのウィンドウを更新する形で示す方法。首相官邸のページへのリンクと、このサイトの著作権に関するページへのリンクで試しに見てみましょう。<br>
+<a href="https://www.kantei.go.jp"><button name="button" target="_blank">→新しいタブで首相官邸のページを開く</button></a><br>
+<a href="https://www.kantei.go.jp"><button name="button">→新しいタブで首相官邸のページを開く</button></a><br>
+<a href="cpdemo.html"><button name="button" target="_blank">→新しいタブでこのサイトの著作権のページを開く</button></a><br>
+<a href="cpdemo.html"><button name="button">→新しいタブでこのサイトの著作権のページを開く</button></a><br>
+　文章をボタンにすると上のようにややこしくなりますが、このような方法もあります。<br>
+首相官邸のページをこのタブで開きたい方は<a href="https://www.kantei.go.jp"><button name="button">コチラ→</button></a>をPush！<br>
+こうすれば、どこを押すべきかわかりやすくなります。<br>
+<a href="topic.html"><button name="button">TOPICに戻る</button>
+<hr>
+<div align="right">
+<a href="index.html"><button name="button">HOME</button></a> <a href="about.html"><button name="button">ABOUT</button></a> <a href="diary.html"><button name="button">DIARY</button></a> <a href="topic.html"><button name="button">TOPIC</button></a> <a href="bbs.html"><button name="button">BBS</button></a><br>
+Copyright &copy; 追憶のキャレル, 2018- . All Rights Reserved. <br>
+First drafted Ocr. 1, 2023<br>
+Last revised Mar. 15, 2024<br>
+    </a>
+</div>
+</body>
+</html>
