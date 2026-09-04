@@ -1,0 +1,122 @@
+<html>
+<head>
+<link rel="shortcut icon" href="ICON.PNG" />
+	 <title>初代のデザイン</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+</head>
+<body bgcolor="#ffffcc" oncontextmenu="alert(`右クリックは禁止です！　黎明期のルールに従っております!`);return false">	
+<!--★コピーここから。位置はbodyの中です-->
+<script type="text/javascript"><!--
+/*=============================================================
+画像１個で複数マウスストーカー　By：http://himajin.moo.jp/freejava/stokerimg.html (サイト：http://himajin.moo.jp)
+★古いブラウザ対応分削除と古い透過指定を変更。 　2016/04/23
+===============================================================*/
+(function (){  //即時関数で囲んでグローバル変数を消すため、この行はこのままで
+
+var imgsrc="ms.png"     //★使用画像
+var hn=8;                  //★画像の表示数
+var msec=50;               //★追従速度原本100。数値が小さいほど速い
+var hx=10;                 //★表示位置 x座標。マウスと画像の横位置
+var hy=20;                 //★表示位置 y座標。マウスと画像の縦位置
+var opa=0.8;               //★残像の透明度(0～1)　0で透明。 1で完全不透明。0は指定しない
+
+//指定ここまで----------------------------------------
+var x=[], y=[];
+for(i=0;i<=hn;i++){
+document.write("<img src='"+imgsrc+"' style='position:absolute;z-index:2;top:-100px;left:-100px;opacity:"+opa+";' id='Heart"+i+"'>");
+}
+document.onmousemove =function(e){x[0]=e.pageX; y[0]=e.pageY;}
+function H_run(){
+for (i=hn; i>=0; i--){
+if(i){x[i] = x[i-1];y[i] = y[i-1];}
+document.getElementById("Heart"+i).style.top=y[i]+hy+"px";
+document.getElementById("Heart"+i).style.left=x[i]+hx+"px";
+}}
+setInterval(H_run,msec);
+}());//即時関数終了
+// --></script>
+<!--★コピーここまで-->		
+	
+	Sorry. This homepage is Japanese only.
+<center>
+<img src="olddesign.png"><br>
+<tabre border="6" bordercolor="#ff0000" width="500">
+<tr>
+<td>
+<marquee>
+<font size="15" color="#0000ff"><i><b初代デザインのページへようこそ！</b></i></font>
+</marquee>
+</td>
+</tr>
+</table>
+
+<tabre width="250">
+<tr>
+<td>
+<marquee behavior="alternate">Здравствуй!　ゆっくりしていってね！</marquee>
+</td>
+</tr>
+</table><br><br>
+管理者から定時のごあいさつでございます→<SCRIPT language="JavaScript">
+<!--
+function PrintMessage(){
+    date=new Date();
+    h=date.getHours();
+    if(5<=h && h<7){
+          document.write("《AM5時～7時　おはようございます！》");
+    }
+    else if(7<=h && h<9){
+          document.write("《AM7時～9時　通学中です！安全運転で！》");
+    }
+　　else if(9<=h && h<12){
+          document.write("《AM9時～正午　1限・2限。早速帰りたいときもある(笑)》");
+    }
+　　else if(12<=h && h<18){
+          document.write("《PM12時～18時　眠くなる3限、どういうわけか目がさえる4限、とっとと帰りたい5限。》");
+    }
+    else if(18<=h && h<20){
+          document.write("《PM18時～20時　帰宅途中です。今日の帰りも安全運転。》");
+    }
+　　else if(20<=h && h<23){
+          document.write("《PM20時～23時　課題がをはらぬ。》");
+    }
+    else {
+          document.write("《PM23時～翌朝5時　良い子は寝る時間です！起きてるボクは悪いコか。》");
+    }
+}
+//-->
+</SCRIPT>
+
+<SCRIPT language="JavaScript">
+<!--
+        PrintMessage();
+//-->
+</SCRIPT><br>
+ あなたは<font color="red">0000</font>番目の訪問者様です！
+ <h3><font color="red">キリ番の人は掲示板にカキコして下さい！　踏み逃げ禁止！</font></h3>
+ ★★実際問題として掲示板がもはや使えませんのでメールへお願いします。★★<br>
+ ★★というより、このご時世キリ番報告なんてやってる人、いるのだろうか…。しなくて結構です。★★<br>
+  <b><big><big>〇インフォメーション（このデザインの説明）</big></big></b><br>
+このページは、リンク集と化していたサイトを公開できる形に書き直した、いわば草創期のデザインです。ソースコードやタグの使い方もぐちゃぐちゃ（いまでもそうですが。）。しばしば「404 Not Found」の文字を画面に出してしまっていました。この当時から「クリックで救える命がある」のバナーを付したり、揺れる文字があったり、時間によって異なるメッセージが表示されていたんですね。Git Hubの公開リポジトリを利用していましたが、その性質に対するサーバー攻撃の懸念による移転まで、比較的短い期間ですが用いられていました。高校で作った個人サイトの第二形態に位置づけられるのかな、と思います。<br>
+　このころは特にインターネット黎明期のサイトを訪れるのにはまっていて、マウスカーソルを追いかける画像やアクセスカウンターと「踏み逃げ禁止」のメッセージなど、1990年代のネット文化を忠実になぞるようなことをしているのが見て取れますね。
+   <br><br>
+  <a href="http://www.dff.jp" target="_blank"><img src="http://bnr.dff.jp/pix/dffbanner200909_02_171x70.gif" alt="クリックで救える命がある。" width="171" height="70" border="0"></a>
+  <br><br>
+<b><big><big>〇リンク集</big></big></b><br>
+<p>当時(`90年代)のホームページの多くはリンク集を持っていました。<br>
+※そのうちメニューページを作って格納する形にするかと思います。<br></p>
+<font color="blue"><u>Google</font></u><br>
+<font color="blue"><u>Bing</font></u><br>
+<font color="blue"><u>Ｙａｈｏｏ！</font></u><br>
+<font color="blue"><u>Youtube</font></u><br>
+<font color="blue"><u>ウィキペディア</font></u><br>
+<font color="blue"><u>アンサイクロペディア</font></u><br>
+<hr>
+<a href="highschoolindex.html"><button name="button">高校時代のサイトに戻る</button></a>　<a href="2index.html"><button name="button">2代目のデザインに進む</button></a>
+<hr>
+
+ <p>Copyright &copy;2018-　Ｓ４４Ａ</p></center>
+<p><font color="blue"><u>メールはこちら</a></p>
+</body>
+</html>
