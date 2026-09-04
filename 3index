@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<link rel="shortcut icon" href="ICON.PNG" />
+<title>3代目デザイン</title>
+</head>
+<body bgcolor="#FFEEDD" oncontextmenu="alert(`右クリックは禁止です！`);return false">
+This website is written in Japanese.<br><br><br>
+<center>
+<img src="greeting.png" width="600"><br>
+<big><big><font size="6"><b>追憶のキャレルのウェブサイト（3代目デザイン）へようこそ!</b></big></big></font>
+</center>
+<br>
+<div Align="left">
+<font color="blue"><u>トップページ</u></font>＞
+</div>
+<hr>
+<div style="width:20%; float:left;">
+<div Align="left">
+
+<h2>各項目</h2>
+<button button name="button">再読み込み</button><br>
+<button button name="button">サイトについて</button><br>
+<button button name="button">お知らせ</button><br>
+<button button name="button">各トピックへ</button><br>
+<button button name="button">アーカイヴ</button><br>
+<button button name="button">リンク集</button><br>
+<button button name="button">バナー保管場所</button><br>
+<button button name="button">お問い合わせ</button><br>
+</div>
+</div>
+<div style="width:80%; float:left;">
+<div Align="left">
+<h2>インフォメーション（デザインの説明）</h2>
+ページを分割して、左側にメニューバーを置いていた時代のアーカイブです。<br>
+「すぐに他のコンテンツに行くことができていいな」と思ったのでそうしたわけですが、<br>
+コンテンツが少ないため、ほとんど恩恵には与れませんでした。<br>
+しばらく経ってサイトの階層構造を意識するようになると、今度はソースコードの複雑さが気になるように。<br>
+そこで、２代目のデザインに戻し、少しデザインを変更して現在に至ります。<br>
+<h2>更新履歴</h2>
+・2000-00-00 【最終更新】更新情報をここに入力<br>
+<h2>お断りとお願い</h2>
+　このページは<font color="blue">リンクフリー</font>ですが、商用サイトからのリンクはお断りさせていただきます。ご了承ください。
+ それ以外の場合でも、このページへのリンクを張られる場合は、メールの方へご一報いただけますと幸いです。
+ また、<font color="blue">画像や文章の転用は著作権の観点からご遠慮ください。</font><br>
+　今後もホームページを充実させてまいります。このホームページへのご意見・ご感想、お気づきの点などございましたら、<font color="blue"><u>ここをクリックして</u></font>電子メールをお送りくださいませ。<br><br>
+</div>
+</div>
+<hr>
+<script type="text/javascript">
+<!--
+
+var msg = new Array();
+
+
+// 設定開始（メッセージの内容を設定してください）
+
+msg[0] = '<marquee><b>＊＊＊時刻は午前0時を回りました。こちらは深夜ですが、モスクワはまだ午後6時です。＊＊＊</b></marquee>';
+msg[1] = '<marquee><b>＊＊＊時刻は午前1時を回りました。健康のため、ブルーライトを長時間見ない生活を送りたいものですね。＊＊＊</b></marquee>';
+msg[2] = '<marquee><b>＊＊＊時刻は午前2時を回りました。所謂「丑三つ時」は現在の時間を指します。＊＊＊</b></marquee>';
+msg[3] = '<marquee><b>＊＊＊時刻は午前3時を回りました。夜更かしをしているそこのあなた、ラッキーです。この時間だけ自己紹介のページを見られますよ～！＊＊＊</b></marquee>';
+msg[4] = '<marquee><b>＊＊＊時刻は午前4時を回りました。レム睡眠が多くなってだんだん覚醒に近づく頃かな。＊＊＊</b></marquee>';
+msg[5] = '<marquee><b>＊＊＊時刻は午前5時を回りました。NHK「おはよう日本」の時間です。＊＊＊</b></marquee>';
+msg[6] = '<marquee><b>＊＊＊時刻は午前6時を回りました。おはようございます。今日も一日頑張りましょう。＊＊＊</b></marquee>';
+msg[7] = '<marquee><b>＊＊＊時刻は午前7時を回りました。今日も一日安全運転！＊＊＊</b></marquee>';
+msg[8] = '<marquee><b>＊＊＊時刻は午前8時を回りました。始業です。改めまして、皆さんおはようございます。＊＊＊</b></marquee>';
+msg[9] = '<marquee><b>＊＊＊時刻は午前9時を回りました。そういえば高校の頃この時間に早弁してた子、いたなぁ。＊＊＊</b></marquee>';
+msg[10] = '<marquee><b>＊＊＊時刻は午前10時を回りました。早い人はもう帰りたそう。お疲れモードですね。＊＊＊</b></marquee>';
+msg[11] = '<marquee><b>＊＊＊時刻は午前11時を回りました。今日の昼飯は何だろな…。＊＊＊</b></big></marquee>';
+msg[12] = '<marquee><b>＊＊＊時刻は正午を回りました。体を動かさないのに食べる量は多い、と…。＊＊＊</b></marquee>';
+msg[13] = '<marquee><b>＊＊＊時刻は午後1時を回りました。サ、午後も頑張るぞ！＊＊＊</b></marquee>';
+msg[14] = '<marquee><b>＊＊＊時刻は午後2時を回りました。眠くしない、そして眠くならない。お互い頑張りましょう。＊＊＊</b></marquee>';
+msg[15] = '<marquee><b>＊＊＊時刻は午後3時を回りました。おやつで栄養補給（太りますよ=3）＊＊＊</b></marquee>';
+msg[16] = '<marquee><b>＊＊＊時刻は午後4時を回りました。よりによって老講師がこの時間帯の担当だと…zzz。＊＊＊</b></marquee>';
+msg[17] = '<marquee><b>＊＊＊時刻は午後5時を回りました。今日の晩飯は何にしようかなァ、なんてことばっかり考えてる。＊＊＊</b></marquee>';
+msg[18] = '<marquee><b>＊＊＊時刻は午後6時を回りました。この時間になると目がｼｮﾎﾞｼｮﾎﾞ(´･ω･`)してきますねぇ。＊＊＊</b></marquee>';
+msg[19] = '<marquee><b>＊＊＊時刻は午後7時を回りました。今日のクローズアップ現代、なんだろな。＊＊＊</b></marquee>';
+msg[20] = '<marquee><b>＊＊＊時刻は午後8時を回りました。今日も今日とてめっぽう熱い風呂。＊＊＊</b></marquee>';
+msg[21] = '<marquee><b>＊＊＊時刻は午後9時を回りました。よい子の皆さんは早く休みましょう。おやすみなさい。＊＊＊</b></marquee>';
+msg[22] = '<marquee><b>＊＊＊時刻は午後10時を回りました。ニューヨークの皆さん、こんにちは（向こうは現在、午前9時）。＊＊＊</b></marquee>';
+msg[23] = '<marquee><b>＊＊＊時刻は午後11時を回りました。一昔前だったら「テレホタイム」。知らない人がほとんどになりましたね。＊＊＊</b></marquee>';
+
+// 設定終了
+
+
+
+var now = new Date();
+
+var hour = now.getHours();
+
+// 表示開始
+document.write(msg[hour]);
+// 表示終了
+
+// -->
+</script>
+<hr>
+<a href="2index.html"><button name="button">2代目のデザインへ</button></a>　<a href="index.html"><button name="button">現行のデザインへ</button></a>
+<hr>
+<div align="right">
+Copyright &copy; 追憶のキャレル, 2018- . All Rights Reserved. <br>
+First drafted N/A. N/A, N/A<br>
+Last revised N/A. N/A, N/A<br>
+
+
+</div>
+</body>
+</html>
