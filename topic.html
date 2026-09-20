@@ -34,9 +34,10 @@ This website is written in Japanese.
 <h2>【おすすめのウェブサイト】</h2>
 ※ランダムで紹介しています。再読み込みすると、違うものが紹介されます。<br>
 ジャンルは、私が使っていて便利なサイトなのでマチマチ。<br>
+<div id="random-message"></div>
 <script>
-  // 表示する要素のリスト
-  const links = [
+  // 1. <a>タグを含む9つの文章を配列に格納する
+  const messages = [
     '<a href="https://himajin.moo.jp" target="_blank"><button name="button">HIMAJINのHP</button></a>→マーキーとか、Javaとか、わかりやすく紹介されています。わがサイトも草創期、大変お世話になりました。',
     '<a href="https://www.partita.ru" target="_blank"><button name="button">Partita</button></a>→パーヴェル・ヤレムチュク氏によって収集された、ソヴィエト・ロシア軍歌の楽譜をアーカイブしているサイトです。（ロシア語）',
     '<a href="https://voenpesni.web.fc2.com" target="_blank"><button name="button">ソヴィエト・ロシア軍歌集積所</button></a>→ソヴィエト・ロシアの軍歌の歌詞と、日本語訳を取り上げてくださっています。',
@@ -46,14 +47,15 @@ This website is written in Japanese.
     '<a href="https://web.archive.org" target="_blank"><button name="button">Wayback Machine</button></a>→アメリカの非営利団体、「INTERNET ARCHIVE」がやっている、Webページのアーカイブサイトです。ウェブページの他、音源や図書なんかも公開されています。',
     '<a href="https://www.aozora.gr.jp" target="_blank"><button name="button">青空文庫</button></a>→言わずと知れた、著者の著作権の切れた作品を電子書籍として配信しているウェブサイトです。',
     '<a href="http://www.sitemapxml.jp" target="_blank"><button name="button">sitemap.xml Editor</button></a>→このサイトのサイトマップはここで作成しています。作成するには条件があるようですが、個人サイトくらいであれば多分、大丈夫だと思います。',
+    '<a href="https://sdfgoods666.base.shop" target="_blank"><button name="button">Lucky☆House</button></a>→野鳥、楽器、国旗をあしらったピンバッジやネクタイピンを製作・販売されています。',
     '<a href="https://vivaldi.com/ja/" target="_blank"><button name="button">VIVALDI</button></a>→私が使っているブラウザはこの「Vivaldi」です。スピードダイヤルとかワークスペースとか、昔のOPERAのようにカスタマイズして使えて大変便利です。オススメ！'
   ];
 
-  // 0 から links.length - 1 の範囲でランダムなインデックスを取得
-  const randomIndex = Math.floor(Math.random() * links.length);
+  // 2. 0から7までのランダムな整数を生成する
+  const randomIndex = Math.floor(Math.random() * messages.length);
 
-  // 指定したHTML要素に選ばれたテキストを出力
-  document.getElementById('random-link').innerHTML = links[randomIndex];
+  // 3. 取得したランダムな文章をHTMLとして指定要素に挿入する
+  document.getElementById('random-message').innerHTML = messages[randomIndex];
 </script>
 </p>
 <hr>
