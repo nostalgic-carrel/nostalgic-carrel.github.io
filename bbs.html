@@ -36,14 +36,18 @@ This website is written in Japanese.<br>
 対応の遅れにつきましてはご容赦くださいませ。<br>
 </p>
 <h2>秘密のお部屋</h2>
-<p>
 隠しページへの入り口はこちらです。
 <form name="form1">
 パスワード：<input type="password" name="pass">
 <input type="button" value="認証" onClick="nextPage();">
 </form> 
-ヒント："秘密"の英単語は？
-</p>
+ヒント："秘密"の英単語は？<br>
+<script>
+var pw;
+pw = prompt("パスワードを入力して下さい。","");
+if (pw != "")
+location.href = pw+".html";
+</script>
 <hr>
 <marquee>（キャレルにちなんで）<font color="red">文机神社</font>のおみくじ　→　あなたの運勢は「
 <script>
